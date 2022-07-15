@@ -55,3 +55,11 @@ print('asd'.isalpha())
 # проверка строки на наличие ТОЛЬКО пробелов
 print('   '.isspace())
 print(' s  s'.strip())
+
+
+# форматирование строк
+print("Hello! My name is {}, i'm {}".format("Ruslan", "Front-End developer"))
+pi = 3.1415
+print("Pi equal {pi:1.2f}".format(pi=pi))
+name = "Ruslan"
+print(f"{name}")
