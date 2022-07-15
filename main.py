@@ -1,16 +1,19 @@
-# This is a sample Python script.
+n = 1
+m = 1.0
+print(n + n)
+print(n - n)
+#
+print(n * n * 2.0)
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# Деление всегда возвращает floar
+print(n / n)
 
+# int + float = float
+print(n + m)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# answer: 3.599999...6. Числа с плавающей точкой имеют ограниченную точно, можно округлить методом round
+print(1.2 * 3)
 
+print(5 % 2)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(2 ** 4)
