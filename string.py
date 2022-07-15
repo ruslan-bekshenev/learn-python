@@ -32,3 +32,26 @@ print("1" + "2")
 first = 'Первая переменная'
 second = 'затем вторая'
 print('%s %s' % (first, second))
+
+# длина строки
+print(len('test'))
+
+# количество вхождений символа
+print(first.count('е'))
+
+# Первый символ в верхний регистр - остальные в нижний
+print(second.capitalize())
+upper_second = second.upper()
+# Все символы в верхний регистр... каждая из этих функций возвращает новую строку
+print(upper_second)
+print(upper_second.isupper())
+print(upper_second.islower())
+# Ищет первый необходимый символ, возвращает индекс, если символ не найден - возвращает -1
+print(upper_second.find('Е', 0, 10))
+# Проверяет на наличие только чисел и букв
+print('123фывыф!"№'.isalnum())
+# только буквы
+print('asd'.isalpha())
+# проверка строки на наличие ТОЛЬКО пробелов
+print('   '.isspace())
+print(' s  s'.strip())
